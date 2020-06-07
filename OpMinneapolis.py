@@ -1,5 +1,5 @@
 #Reedited by @YourAnonS0u1 
-#I got to say Ala iz G0d
+#Hello to ala :)
 #Lets just pwn shit now :D 
 import socket,random,threading,time,ssl,sys,time,re
 try:
@@ -1671,7 +1671,10 @@ try:
 except Exception as e:
   pass
 p5+=ips
-h+=p[0]
+try:
+   h+=p[0]
+except:
+   pass
 print"[+]Scanning has finished!"
 print"\nhttp/https : ", len(h)
 p4=p[2]
